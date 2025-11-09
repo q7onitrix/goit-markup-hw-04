@@ -444,7 +444,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 .footer-socials-list {
         display: flex;
-        justify-content: center;
         gap: 24px;
 }
 
@@ -476,6 +475,12 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     margin-bottom: 16px;
 }
 
-.footer-info {
+.footer-info{
     margin-right: 120px;
+}
+
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
 }
