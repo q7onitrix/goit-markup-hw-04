@@ -77,8 +77,7 @@ a {
     padding: 24px 0;
     display: block;
 
-    transition: transform 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list-link.current {
@@ -137,8 +136,7 @@ a {
     color: #434455;
     font-style: normal;
 
-    transition: transform 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address {
@@ -199,8 +197,7 @@ a {
     margin: 0 auto;
     border: none;
 
-    transition: transform 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:focus,
@@ -399,6 +396,7 @@ padding: 32px 16px
 
 .portfolio-list-item {
     background-color: #fff;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item-thumb {
@@ -419,7 +417,7 @@ position: absolute;
 top: 0;
 left: 0;
 padding: 40px 32px;
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover .portfolio-list-item-overlay {
